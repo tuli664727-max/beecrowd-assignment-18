@@ -1,0 +1,29 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 1021
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/#include <iostream> 
+
+#include <cmath> 
+using namespace std; 
+
+int main() {   
+double N;   
+cin >> N;    
+int value = round(N * 100); // convert to cents    
+
+int notes[] = {10000, 5000, 2000, 1000, 500,200};   
+int coins[] = {100, 50, 25, 10, 5, 1};   
+
+cout << "NOTAS:\n"; 
+for (int n : notes) {   
+cout << value / n << " nota(s) de R$ " << n / 100 << ".00\n";       value %= n;     }      cout << "MOEDAS:\n";     for (int c : coins) {         cout << value / c << " moeda(s)de R$ "              << (c >= 100 ? to_string(c/100)+".00" :"0."+(c<10?"0":"")+to_string(c)) << "\n"; value %= c;  
+
+  }
+
+}
