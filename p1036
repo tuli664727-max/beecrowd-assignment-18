@@ -1,0 +1,33 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 1036
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double A, B, C;
+    cin >> A >> B >> C;
+
+    double delta = B * B - 4 * A * C;
+
+    if (A == 0 || delta < 0) {
+        cout << "Impossivel calcular" << endl;
+    } else {
+        double R1 = (-B + sqrt(delta)) / (2 * A);
+        double R2 = (-B - sqrt(delta)) / (2 * A);
+
+        cout << fixed << setprecision(5);
+        cout << "R1 = " << R1 << endl;
+        cout << "R2 = " << R2 << endl;
+    }
+
+    return 0;
+}
