@@ -1,0 +1,27 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 1012
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/1012
+*/
+
+#include <iostream> 
+#include <iomanip>
+using namespace std; 
+int main() {    
+double A, B, C;   
+cin >> A >> B >> C;   
+const double pi = 3.14159;   
+cout << fixed << setprecision(3);
+cout << "TRIANGULO: " << (A * C) / 2 << endl;
+cout << "CIRCULO: " << pi * C * C << endl; 
+cout << "TRAPEZIO: " << (A + B) * C / 2 << endl;   
+cout << "QUADRADO: " << B * B << endl;   
+cout << "RETANGULO: " << A * B << endl;
+return 0;
+}
