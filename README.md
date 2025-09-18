@@ -30,7 +30,7 @@
 | p1021 | Banknotes and Coins | AC | 
 | p1035 | Selection Test 1 | AC |  
 | p1036 | Bhaskara's Formula | AC | 
-| p1037 | Interval | AC |  
+| p1037 | Interval | AC |
 | p1038 | Snack | AC |  
 | p1040 | Average 3 | AC | 
 | p1041 | Coordinates of a Point | AC | 
