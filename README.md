@@ -21,7 +21,7 @@
 | p1012 | Area | AC | 
 | p1013 | The Greatest | AC |
 | p1014 | Consumption | AC | 
-| p1015 | Distance Between Two Points | AC | 
+| p1015 | Distance Between Two Points | AC| 
 | p1016 | Distance | AC | 
 | p1017 | Fuel Spent | AC | 
 | p1018 | Banknotes | AC |  
