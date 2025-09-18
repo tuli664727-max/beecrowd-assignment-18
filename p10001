@@ -1,0 +1,24 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 10001 
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/1001
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+int A, B, X;
+cin >> A >> B;
+X = A + B;
+cout << "X = " << X << endl;
+
+return 0;
+
+}
