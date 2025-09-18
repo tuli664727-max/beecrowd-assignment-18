@@ -1,0 +1,26 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 1015
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/1015
+*/
+
+#include <iostream> 
+#include <iomanip>
+#include <cmath> 
+// For sqrt and pow using namespace std; 
+int main() {    
+double x1, y1, x2, y2;   
+// Read input     cin >> x1 >> y1 >> x2 >>y2;     
+// Calculate distance    
+double distance = sqrt(pow(x2 - x1, 2) +pow(y2 - y1, 2));     
+// Print output with 4 decimal places  
+cout << fixed << setprecision(4) << dist << '\n'; 
+return 0; 
+
+}
