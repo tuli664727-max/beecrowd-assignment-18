@@ -1,0 +1,32 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 1009
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/1009
+*/
+
+#include <iostream>
+#include <iomanip> // For setprecision
+using namespace std;
+
+int main() {
+    string seller_name;
+    double fixed_salary, total_sales, final_salary;
+
+    // Read input
+    cin >> seller_name >> fixed_salary >> total_sales;
+
+    // Calculate final salary (fixed + 15% of sales)
+    final_salary = fixed_salary + 0.15 * total_sales;
+
+    // Print output in required format with 2 decimal places
+    cout << fixed << setprecision(2);
+    cout << "TOTAL = R$ " << final_salary << endl;
+
+    return 0;
+}
