@@ -1,0 +1,28 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 1006 
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/1006
+*/
+
+#include <iostream>
+#include <iomanip> // for fixed and setprecision
+using namespace std;
+
+int main() {
+    double A, B, C, MEDIA;
+
+    cin >> A >> B >> C; // read three grades
+
+    MEDIA = (A * 2 + B * 3 + C * 5) / 10.0; // calculate weighted average
+
+    cout << fixed << setprecision(1); // 1 decimal place as required
+    cout << "MEDIA = " << MEDIA << endl; // print result
+
+    return 0;
+}
