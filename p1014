@@ -1,0 +1,27 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 1014
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/1014
+*/
+
+#include <iostream> 
+#include <iomanip>
+using namespace std;  
+int main() {    
+int distance;    
+double fuel;      
+// Read input    
+cin >> distance >> fuel;   
+// Calculate average consumption   
+double avg = distance / fuel;   
+// Print output with 3 decimal places 
+cout << fixed << setprecision(3) << avg << " km/l" << endl; 
+
+return 0;
+}
