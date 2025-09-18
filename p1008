@@ -1,0 +1,34 @@
+/*
+* Course: Competitive Programming Sessional (CCE-2310)
+* Assignment: beecrowd BEGINNER 1000–1050
+* Problem ID: 1008
+* Author: Jannatul Naima Tuli (ID:E243430)
+* Language/Version: C++20
+* beecrowd Profile: https://judge.beecrowd.com/en/profile/1182493
+* Date: 2025-09-17
+* Statement: 
+https://judge.beecrowd.com/en/problems/view/1008
+*/
+
+#include <iostream>
+#include <iomanip> // For setprecision
+
+using namespace std;
+
+int main() {
+    int employee_number, hours_worked;
+    double hourly_rate, salary;
+
+    // Read input
+    cin >> employee_number >> hours_worked >> hourly_rate;
+
+    // Calculate salary
+    salary = hours_worked * hourly_rate;
+
+    // Print output in the required format
+    cout << "NUMBER = " << employee_number << endl;
+    cout << fixed << setprecision(2); // Ensure 2 decimal places
+    cout << "SALARY = U$ " << salary << endl;
+
+    return 0;
+}
